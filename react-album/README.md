@@ -1,6 +1,6 @@
 ---
 
-# Albums List React App
+# React Albums App
 
 This project is a React.js application that displays a list of albums. Users can view albums, add new albums, edit existing ones, and delete them. It utilizes technologies such as Redux Toolkit and RTK Query for state management, along with CSS for styling.
 
@@ -16,7 +16,7 @@ The project fetches album data from a fake server hosted at JSONPlaceholder (htt
 ## Hosted Link:
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f9d577cf-79c2-4dae-916c-e09970009a57/deploy-status)](https://app.netlify.com/sites/albums-list-react-app-p666r/deploys)
 
-The live demo of the application can be accessed here: https://vermillion-basbousa-20cc6c.netlify.app.
+The live demo of the application can be accessed here: [Try it out.](https://vermillion-basbousa-20cc6c.netlify.app)
 
 ## Screenshots:
 ![Screenshot 1](https://github.com/P666R/Albums-List-React-App/blob/main/public/alb.jpg)
