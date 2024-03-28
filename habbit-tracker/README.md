@@ -70,7 +70,7 @@
       ```
    2. Navigate to the project directory:
       ```bash
-      cd calculator
+      cd habbit-tracker
       ```
    3. Install all dependencies:
       ```bash
