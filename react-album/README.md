@@ -1,84 +1,77 @@
-# <div align="center">Albums list React App
-</div>
+---
 
-# Technologies Used:
-### 1. React.js
-### 2. Redux Toolkit
-### 3. RTK Query
-### 4. CSS
+# Albums List React App
 
-## Fake Server : https://jsonplaceholder.typicode.com/albums 
+This project is a React.js application that displays a list of albums. Users can view albums, add new albums, edit existing ones, and delete them. It utilizes technologies such as Redux Toolkit and RTK Query for state management, along with CSS for styling.
 
-# <div align="center">
+## Technologies Used:
+- React.js
+- Redux Toolkit
+- RTK Query
+- CSS
+
+## Fake Server:
+The project fetches album data from a fake server hosted at JSONPlaceholder (https://jsonplaceholder.typicode.com/albums).
+
+## Hosted Link:
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f9d577cf-79c2-4dae-916c-e09970009a57/deploy-status)](https://app.netlify.com/sites/albums-list-react-app-p666r/deploys)
-## Hosted Link: https://albums-list-react-app-p666r.netlify.app/
-</div>
-</div>
 
-<hr/>
+The live demo of the application can be accessed here: https://vermillion-basbousa-20cc6c.netlify.app.
 
-# <div align="center">
-![app](https://github.com/P666R/Albums-List-React-App/blob/main/public/alb.jpg)
-</div>
+## Screenshots:
+![Screenshot 1](https://github.com/P666R/Albums-List-React-App/blob/main/public/alb.jpg)
+![Screenshot 2](https://github.com/P666R/Albums-List-React-App/blob/main/public/alb1.jpg)
 
-<hr/>
+## Folder Structure:
 
-# <div align="center">
-![app1](https://github.com/P666R/Albums-List-React-App/blob/main/public/alb1.jpg)
-</div>
+- albumslistapp
+  - node_modules
+  - public
+    - index.html
+  - src
+    - components
+      - AlbumForm.js
+      - AlbumModal.js
+      - AlbumsList.js
+    - store
+      - apis
+        - albumsApi.js
+      - slice
+        - albumsApiSlice.js
+        - albumsLocalSlice.js
+        - editSlice.js
+        - formSlice.js
+        - modalSlice.js
+      - index.js
+    - App.js
+    - index.css
+    - index.js
+  - package-lock.json
+  - package.json
+  - README.md
 
-<hr/>
+## Installation And Usage:
 
-# Folder Structure:
+1. Clone the repository:
+   ```bash
+   https://github.com/D-4-DIBAKAR/React.js-Skills-Test.git
+   ```
 
-- 📂 __albumslistapp__
-   - 📄 [node\_modules](node_modules)
-   - 📂 __public__
-     - 📄 [index.html](public/index.html)
-   - 📂 __src__
-     - 📂 __components__
-       - 📄 [AlbumForm.js](src/components/AlbumForm.js)
-       - 📄 [AlbumModal.js](src/components/AlbumModal.js)
-       - 📄 [AlbumsList.js](src/components/AlbumsList.js)
-     - 📂 __store__
-       - 📂 __apis__
-         - 📄 [albumsApi.js](src/store/apis/albumsApi.js)
-       - 📂 __slice__
-         - 📄 [albumsApiSlice.js](src/store/slice/albumsApiSlice.js)
-         - 📄 [albumsLocalSlice.js](src/store/slice/albumsLocalSlice.js)
-         - 📄 [editSlice.js](src/store/slice/editSlice.js)
-         - 📄 [formSlice.js](src/store/slice/formSlice.js)
-         - 📄 [modalSlice.js](src/store/slice/modalSlice.js)
-       - 📄 [index.js](src/store/index.js)
-     - 📄 [App.js](src/App.js)
-     - 📄 [index.css](src/index.css)
-     - 📄 [index.js](src/index.js)
-   - 📄 [package\-lock.json](package-lock.json)
-   - 📄 [package.json](package.json)
-   - 📄 [README.md](README.md)
-   
+2. Navigate to the project directory:
+   ```bash
+   cd react-album
+   ```
 
+3. Install all dependencies:
+   ```bash
+   npm install
+   ```
 
-## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+4. Run the project:
+   ```bash
+   npm start
+   ```
 
+Now you can access the application at localhost:3000.
 
-# Installation And Usage:
-
-## To run this project run
-
--  git clone https://github.com/P666R/Albums-List-React-App.git
-  
-## Go to directory
-
--  cd Albums-List-React-App-main
-  
-## Install all dependencies
-
-- npm install
- 
-## Run Project
-
--  npm start
-  
-## Now you can access on localhost:3000
-   
+---
