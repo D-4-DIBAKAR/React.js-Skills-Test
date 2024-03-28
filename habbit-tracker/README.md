@@ -42,4 +42,42 @@
   ![habit4](https://github.com/rajxode/habit-tracker/assets/120395470/04c20704-4126-4f5f-9a50-6983af745398)
 
   ![habit5](https://github.com/rajxode/habit-tracker/assets/120395470/38d9e8da-431a-4736-b878-225ccfe1fcde)
-
+  
+# Folder Structure
+```
+├───habbit-tracker
+│   ├───build
+│   │   ├───Assets
+│   │   └───static
+│   │       ├───css
+│   │       ├───js
+│   │       └───media
+│   ├───public
+│   │   └───Assets
+│   └───src
+│       ├───Assets
+│       ├───Components
+│       ├───Data
+│       ├───Pages
+│       └───Redux
+│           ├───Reducer
+│           └───Store
+```
+# Installation And Usage:
+   1. Clone the repository:
+      ```bash
+      git clone https://github.com/D-4-DIBAKAR/React.js-Skills-Test.git
+      ```
+   2. Navigate to the project directory:
+      ```bash
+      cd calculator
+      ```
+   3. Install all dependencies:
+      ```bash
+      npm install
+      ```
+   4. Run the project:
+      ```bash
+      npm start
+      ```
+Now you can access the application at localhost:3000.
